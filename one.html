@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stay in toch</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        nav{
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background-color: rgba(150, 150, 150, .5);
+        }
+
+        ul {
+                        width: 100%;
+
+            display: flex;
+    
+            justify-content: space-around;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li>a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        li>a:hover {
+            background-color: rgba(150, 150, 150, 1);
+            color: #fff;
+
+        }
+        section>p{
+            margin: 30px auto;
+            width: 50%;
+        }
+        main{
+            display: flex;
+            margin-top: 30px;
+        }
+        footer{
+            padding: 30px 15px;
+            background-color: black;
+            display: flex;
+            margin-top: 30px;
+        }
+        footer>section{
+            flex: 1;
+        }
+        footer>section>a{
+            display: block;
+            color: #fff;
+            text-align: center;
+        }
+        main>section{
+            flex: 1;
+        }
+
+        #contactus{
+            position: fixed;
+            bottom: 100px;
+            right: 10px;
+            color: #777;
+        }
+
+
+
+
+        @media(max-width:700px){
+            ul{
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Season Offer</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore animi rem sequi, minima, quo ipsam molestiae voluptas voluptatem error quae consequuntur necessitatibus libero totam asperiores eaque at. Cupiditate, animi molestias.</p>
+    </section>
+    <main>
+        <section> 
+            <img src="https://placeholder.pics/svg/600x300" alt="the product" width="100%">
+            <h3>Product Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facere inventore sunt, incidunt repudiandae cumque accusantium vitae doloribus necessitatibus, in rem temporibus quos non atque? Fugit recusandae nesciunt ex veritatis.</p>
+            <a href="">Shop Now</a>
+        </section>
+         <section> 
+            <img src="https://placeholder.pics/svg/600x300" alt="the product" width="100%">
+            <h3>Product Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facere inventore sunt, incidunt repudiandae cumque accusantium vitae doloribus necessitatibus, in rem temporibus quos non atque? Fugit recusandae nesciunt ex veritatis.</p>
+            <a href="">Shop Now</a>
+        </section>
+        <section> 
+            <img src="https://placeholder.pics/svg/600x300" alt="the product" width="100%">
+            <h3>Product Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facere inventore sunt, incidunt repudiandae cumque accusantium vitae doloribus necessitatibus, in rem temporibus quos non atque? Fugit recusandae nesciunt ex veritatis.</p>
+            <a href="">Shop Now</a>
+        </section>
+        
+    </main>
+    <footer>
+        <section>
+            <a href="#">internal links</a>
+            <a href="#">internal links</a>
+            <a href="#">internal links</a>
+            <a href="#">internal links</a>
+            <a href="#">internal links</a>
+        </section>
+        <section>
+            <a href="#">External Link</a>
+            <a href="#">External Link</a>
+            <a href="#">External Link</a>
+            <a href="#">External Link</a>
+            <a href="#">External Link</a>
+        </section>
+        <section>
+            <a href="#">partnership</a>
+            <a href="#">partnership</a>
+            <a href="#">partnership</a>
+            <a href="#">partnership</a>
+            <a href="#">partnership</a>
+        </section>
+    </footer>
+    <div id="contactus">
+        contcat us
+    </div>
+</body>
+
+</html>
